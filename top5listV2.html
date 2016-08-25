@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html> <!-- starting tag for html -->
+    <head>
+    	<!-- where scripts and styles often go-->
+    	<style>
+    		/* CSS Code Goes Here
+    			the comments are done differently
+    			because we are now in the CSS ZONE */
+    		body {
+    			background-color : Mintcream;
+    		}
+    		h1 { 
+    			color: royalblue;
+    		}
+    		.orange-text {
+    			color : orange;
+    		}
+    		.red-text {
+    			color : red;
+    		}
+    		ol { 
+    			color: chocolate;
+    		}
+    		
+    		a:link {
+    			text-decoration: none;
+    			color: orange
+    			
+    		}
+    		a:hover {
+    			text-decoration: none;
+    			color: orange
+    		}
+    		a:visited {
+    			text-decoration: none;
+    			color: orange
+    		}
+    		a:active {
+    			text-decoration: underline;
+    			color: red
+    		}
+    		#main {
+    			margin-right: auto;
+    			margin-left: auto;
+    			display: block;
+    			width: 470px;
+    		}
+    		.loader {
+    			margin-right: auto;
+    			margin-left: auto;
+    			border: 8px solid #f3f3f3; 
+    			border-top: 8px solid #3498db; 
+   				border-radius: 50%;
+   				width: 60px;
+   				height: 60px;
+   				animation: spin 2s linear infinite;
+			}
+
+			@keyframes spin {
+    			0% { transform: rotate(0deg); }
+    			100% { transform: rotate(360deg); }
+			}
+    		
+    		/* to refer to a class, you put a period in front of the class name */
+    		
+    		
+    	</style>
+    </head>
+    <body>
+    	<div id="main">
+        <!-- what you put in here gets
+        displayed on the screen -->
+    
+        <!-- h1 is a header tag. There are 6 levels of headers
+        h1 through h6-->
+        <h1>Top 5 Things I Did This Summer</h1>
+        <img src="2016_Summer_Olympics_logo.png" 
+        	width=288>
+        	<ol type=a>	
+        	
+        		<li class="red-text">sleep</li>
+        		
+        		<li class="orange-text">travel</li>
+        		
+        		<li class="orange-text">took a plane alone for 13 hours</li>
+        		
+        		<li class="orange-text">went <a href="http://www.dictionary.com/browse/to" target="_blank"> to </a>a farm</li>
+        		
+        		<li class="orange-text">watch <a href="https://www.olympic.org" target="_blank"> Rio Olympics</a></li>
+        		
+        	</ol>
+        </div>
+        <div class="loader">
+        </div>
+    </body>
+</html> <!-- ending tag has a slash in the front -->
